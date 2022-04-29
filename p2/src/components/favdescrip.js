@@ -1,14 +1,18 @@
 import React from 'react'
-//export default function Example(props)
-//{
-//    return <p>My favorite show is {props.show},and my favorite charcter in it is {props.charcter}</p>
-//}
 
 
-///These two are exactly the same this is class versus
 
-export default class IndexTwo extends React.Component {
-    render() {
-        return <p> {this.props.show}  </p>
-    }
+export default class favdescrip extends React.Component {
+  
+    render(){
+    return (
+        <div className="para1">
+            <p>{this.props.show} is a new hit snimated series that's taking the world by storm. 
+            Riot games partnered with fortiche to create a beautifully crafted show, that dives into the lives
+            of some of the players favorite champions. </p>
+            
+            
+        </div>
+    );
+}
 }
